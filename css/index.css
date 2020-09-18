@@ -1,0 +1,181 @@
+/* RESET Styles */
+body,
+p,
+h2 {
+    margin: 0;
+}
+
+/* BASE */
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Condensed Regular';
+    src: url('../fonts/proxima_nova_condensed_regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/proxima_nova_condensed_regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../fonts/proxima_nova_condensed_regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/proxima_nova_condensed_regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/proxima_nova_condensed_regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/proxima_nova_condensed_regular.svg#proxima_nova_condensed_regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Futura PT Heavy';
+    src: url('../fonts/futura_pt_heavy.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/futura_pt_heavy.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../fonts/futura_pt_heavy.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/futura_pt_heavy.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/futura_pt_heavy.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/futura_pt_heavy.svg#futura_pt_heavy') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Proxima Nova Condensed Regular';
+    background-color: #464f54;
+}
+
+* {
+    transition: all .1s easy-in;
+}
+
+.container {
+    display: inline-block;
+    width: 876px;
+    height: 187px;
+    filter: drop-shadow(-3.536px -3.536px 29.5px rgba(0, 0, 0, 0.16));
+    background-color: #181818;
+    margin-left: 240px;
+    margin-top: 60px;
+}
+
+.title {
+    font-size: 15px;
+    letter-spacing: 5px;
+    line-height: 109px;
+    color: #767676;
+    font-family: "Proxima Nova";
+    margin-left: 25px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 94px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    margin: 0;
+    margin-left: 25px;
+    border-bottom: 3px solid #b4b4b4;
+    ;
+    margin-top: -50px;
+}
+
+.cursor {
+    border: 2px solid #edeff2;
+    width: 2px;
+    height: 43px;
+    background-color: #edeff2;
+}
+
+nav {
+    width: 815px;
+    height: 76px;
+    filter: drop-shadow(-3.536px -3.536px 29.5px rgba(0, 0, 0, 0.16));
+    background-color: #fbc02d;
+    margin-left: 300px;
+    display: inline-block;
+    padding-left: 30px;
+    margin-bottom: -90px;
+}
+
+img {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.block {
+    position: relative;
+    z-index: 60;
+    margin-bottom: -50px;
+}
+
+.content {
+    width: 1060px;
+    height: 1195px;
+    filter: drop-shadow(0 0 17.5px rgba(0, 0, 0, 0.22));
+    background-color: #ffffff;
+    margin-left: 55px;
+    padding-top: 90px;
+    /* margin-top: -70px; */
+    padding-left: 30px;
+}
+
+.line {
+    border-left: 2px solid #e8eced;
+    height: 1022px;
+}
+
+.autor {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #b4b4b4;
+    font-family: "Proxima Nova";
+    padding-left: 25px;
+    display: block;
+}
+
+.h2 {
+    width: 1225px;
+    font-size: 78px;
+    letter-spacing: 4px;
+    line-height: 74px;
+    color: #2a2a2a;
+    font-family: "Futura PT";
+    padding-left: 25px;
+}
+
+.subtitle {
+    display: block;
+    font-size: 30px;
+    line-height: 62px;
+    color: #8f8f8f;
+    font-style: italic;
+    font-family: "Georgia";
+    text-align: left;
+    padding-left: 25px;
+}
+
+.one-article {
+    display: block;
+    font-size: 27px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Georgia";
+    text-align: left;
+    padding-left: 25px;
+}
+
+.two-article {
+    display: block;
+    font-size: 27px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Georgia";
+    text-align: left;
+    padding-left: 25px;
+}
